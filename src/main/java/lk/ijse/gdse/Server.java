@@ -16,7 +16,7 @@ public class Server {
             //Blocking call = client gen rq enakn server eka wait wenna one
             //rq ekak awama web server eken thama socket eka hadila connection eka stablish wenne , ita kalin wait k one clintgen rq enakan
             //create socket object
-            Socket socket = ss.accept();
+            Socket soc = ss.accept();
             System.out.println("Connection is Stablish !");
 
         } catch (IOException e) {

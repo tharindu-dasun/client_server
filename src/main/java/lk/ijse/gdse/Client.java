@@ -8,7 +8,7 @@ public class Client {
 
         try {
             System.out.println("Client Started !");
-            Socket socket = new Socket("localhhost",9806); //Arguments 2 = Server ip address & port number
+            Socket soc = new Socket("localhost",9806); //Arguments 2 = Server ip address & port number
         } catch (IOException e) {
             e.printStackTrace();
         }
